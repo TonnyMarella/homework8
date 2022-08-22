@@ -11,13 +11,14 @@ def get_birthdays_per_week(users):
         '6': 'Monday',
         '7': 'Monday',
     }
+
     week_days = {'Monday': '',
                  'Tuesday': '',
                  'Wednesday': '',
                  'Thursday': '',
                  'Friday': '',
                  }
-    birtday = {}
+
     today = str(datetime.datetime.isoweekday(datetime.datetime.now()))
     first = dct_fist[today].date()
     last = dct_last[today].date()
@@ -28,7 +29,6 @@ def get_birthdays_per_week(users):
                 value = datetime.date(year=current_year, month=value.month, day=value.day)
                 if int(str(value).split('-')[1]) in (first.month, last.month):
                     if first <= value <= last:
-                        birtday[key] = week[str(datetime.date.isoweekday(value))]
                         week_days[week[str(datetime.date.isoweekday(value))]] += key + ', '
 
     for key, value in week_days.items():
