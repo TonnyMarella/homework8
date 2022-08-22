@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ff5d835-a279-4c7e-acd2-9cfcf403330e" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework8.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework8.py" afterDir="false" />
-    </list>
+    <list default="true" id="5ff5d835-a279-4c7e-acd2-9cfcf403330e" name="Default Changelist" comment="Complete homework8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +129,42 @@
       <option name="project" value="LOCAL" />
       <updated>1661153823327</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Complete homework8">
+      <created>1661173106117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661173106117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Complete homework8">
+      <created>1661173115287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661173115287</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Complete homework8">
+      <created>1661173186547</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661173186547</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Complete homework8">
+      <created>1661173227032</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661173227032</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Complete homework8">
+      <created>1661173441385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661173441385</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +185,7 @@
     </ignored-roots>
     <MESSAGE value="Add file homework" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Complete homework8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete homework8" />
   </component>
 </project>
