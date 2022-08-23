@@ -21,13 +21,7 @@ def get_birthdays_per_week(users):
         'Thursday': '',
         'Friday': '',
     }
-    congratulations_next_week = {
-        'Monday': '',
-        'Tuesday': '',
-        'Wednesday': '',
-        'Thursday': '',
-        'Friday': '',
-    }
+    congratulations_next_week = congratulations_current_week.copy()
 
     today = str(datetime.datetime.isoweekday(datetime.datetime.now()))
     first_current_week = dct_fist[today].date()
@@ -44,16 +38,16 @@ def get_birthdays_per_week(users):
                 elif first_next_week <= i['birthday'] <= last_next_week:
                     congratulations_next_week[week[str(datetime.date.isoweekday(i['birthday']))]] += i['name'] + ', '
 
-    for key, value in congratulations_current_week.items():
+    print_result(congratulations_current_week)
+    print('Next week')
+    print_result(congratulations_next_week)
+
+
+def print_result(week):
+    for key, value in week.items():
         if value != '':
             value = value[:-2]
-            congratulations_current_week[key] = value
-            print(key + ':', value)
-    print('next week')
-    for key, value in congratulations_next_week.items():
-        if value != '':
-            value = value[:-2]
-            congratulations_next_week[key] = value
+            week[key] = value
             print(key + ':', value)
 
 
